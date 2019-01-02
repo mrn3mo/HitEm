@@ -16,7 +16,7 @@ time.sleep(30)
 print("he got hacked")
 print("type help for options")
 gg = raw_input("meterpreter: ")
-if gg = help :
+if gg == help :
   print("u got hacked for bragging")
 else:
  print("u got hacked for bragging")
